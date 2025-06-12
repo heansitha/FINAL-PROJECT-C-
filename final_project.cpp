@@ -5,6 +5,8 @@
 using namespace std;
 using namespace tabulate;
 
+//hotel
+
 struct Room {
     int number;
     string type;
