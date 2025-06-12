@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\USER\OneDrive\Documents\Final project c++\build\_deps\tabulate-subbuild\CMakeFiles\630ed147f5b45565cbdb4880476c21a4\tabulate-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\OneDrive\Documents\Final project c++\build\_deps\tabulate-subbuild\CMakeFiles\630ed147f5b45565cbdb4880476c21a4\tabulate-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\OneDrive\Documents\Final project c++\build\_deps\tabulate-subbuild\CMakeFiles\630ed147f5b45565cbdb4880476c21a4\tabulate-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\OneDrive\Documents\Final project c++\build\_deps\tabulate-subbuild\CMakeFiles\630ed147f5b45565cbdb4880476c21a4\tabulate-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\OneDrive\Documents\Final project c++\build\_deps\tabulate-subbuild\CMakeFiles\630ed147f5b45565cbdb4880476c21a4\tabulate-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\OneDrive\Documents\Final project c++\build\_deps\tabulate-subbuild\CMakeFiles\630ed147f5b45565cbdb4880476c21a4\tabulate-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\OneDrive\Documents\Final project c++\build\_deps\tabulate-subbuild\CMakeFiles\630ed147f5b45565cbdb4880476c21a4\tabulate-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\OneDrive\Documents\Final project c++\build\_deps\tabulate-subbuild\CMakeFiles\630ed147f5b45565cbdb4880476c21a4\tabulate-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\OneDrive\Documents\Final project c++\build\_deps\tabulate-subbuild\CMakeFiles\3fdea01a0e69e97dca4078c22be3a988\tabulate-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\OneDrive\Documents\Final project c++\build\_deps\tabulate-subbuild\CMakeFiles\c569b8dea0b5d16bb33157aed54986e6\tabulate-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\OneDrive\Documents\Final project c++\build\_deps\tabulate-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\USER\OneDrive\Documents\Final project c++\build\_deps\tabulate-subbuild\CMakeFiles\tabulate-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9BEB33C3-7A75-333F-943A-16DB7D2C8AB6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

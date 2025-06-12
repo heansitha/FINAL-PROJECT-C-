@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/xlnt-subbuild/CMakeFiles/xlnt-populate"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/xlnt-subbuild/CMakeFiles/819009e4a0258f824e64323a430bb671/xlnt-populate.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/xlnt-subbuild/CMakeFiles/ad3aaabc00b33d70afdeed2248a5119f/xlnt-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/xlnt-subbuild/CMakeFiles/90842dd468169ae7ed451eaa7dabb173/xlnt-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/xlnt-subbuild/CMakeFiles/90842dd468169ae7ed451eaa7dabb173/xlnt-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/xlnt-subbuild/CMakeFiles/90842dd468169ae7ed451eaa7dabb173/xlnt-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/xlnt-subbuild/CMakeFiles/90842dd468169ae7ed451eaa7dabb173/xlnt-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/xlnt-subbuild/CMakeFiles/90842dd468169ae7ed451eaa7dabb173/xlnt-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/xlnt-subbuild/CMakeFiles/90842dd468169ae7ed451eaa7dabb173/xlnt-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/xlnt-subbuild/CMakeFiles/90842dd468169ae7ed451eaa7dabb173/xlnt-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/xlnt-subbuild/CMakeFiles/90842dd468169ae7ed451eaa7dabb173/xlnt-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"xlnt-populate"
+		],
+		"name" : "xlnt-populate"
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/tabulate-subbuild/CMakeFiles/tabulate-populate"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/tabulate-subbuild/CMakeFiles/c569b8dea0b5d16bb33157aed54986e6/tabulate-populate.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/tabulate-subbuild/CMakeFiles/3fdea01a0e69e97dca4078c22be3a988/tabulate-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/tabulate-subbuild/CMakeFiles/630ed147f5b45565cbdb4880476c21a4/tabulate-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/tabulate-subbuild/CMakeFiles/630ed147f5b45565cbdb4880476c21a4/tabulate-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/tabulate-subbuild/CMakeFiles/630ed147f5b45565cbdb4880476c21a4/tabulate-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/tabulate-subbuild/CMakeFiles/630ed147f5b45565cbdb4880476c21a4/tabulate-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/tabulate-subbuild/CMakeFiles/630ed147f5b45565cbdb4880476c21a4/tabulate-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/tabulate-subbuild/CMakeFiles/630ed147f5b45565cbdb4880476c21a4/tabulate-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/tabulate-subbuild/CMakeFiles/630ed147f5b45565cbdb4880476c21a4/tabulate-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/USER/OneDrive/Documents/Final project c++/build/_deps/tabulate-subbuild/CMakeFiles/630ed147f5b45565cbdb4880476c21a4/tabulate-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tabulate-populate"
+		],
+		"name" : "tabulate-populate"
+	}
+}

@@ -1,0 +1,1036 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "_deps/xlnt-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.xlnt-build-Debug-166751c61bcedacc0533.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/xlnt-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/xlnt-build/source",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.xlnt-build.source-Debug-68f2ae41395d255ba1eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/xlnt-src/source",
+					"targetIndexes" : 
+					[
+						2,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "_deps/xlnt-build/source/third-party/libstudxml",
+					"jsonFile" : "directory-_deps.xlnt-build.source.third-party.libstudxml-Debug-c70615e2ffb5f65b0c3a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "build/_deps/xlnt-src/third-party/libstudxml.build",
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				},
+				{
+					"build" : "_deps/tabulate-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.tabulate-build-Debug-520ea6a91e5a65486d49.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "build/_deps/tabulate-src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ExcelTableApp",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "xlnt_all",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "xlnt",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "libstudxml",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "tabulate",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-c2ffc455ab283766e5ed.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@deb7e7b195595d1d88db",
+					"jsonFile" : "target-ALL_BUILD-Debug-55512f0ebaa4c178caf8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@874320f2c4e182ab03bd",
+					"jsonFile" : "target-ALL_BUILD-Debug-a51438b070773913b1dd.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@adc904478183145f15fa",
+					"jsonFile" : "target-ALL_BUILD-Debug-ebc87439a35a595d8047.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@f577248e0aae2aef4ba1",
+					"jsonFile" : "target-ALL_BUILD-Debug-563a0e25510b2eb72215.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExcelTableApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExcelTableApp-Debug-1a9262eb117d2e7d2fb4.json",
+					"name" : "ExcelTableApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-8b6d874a1c788572cd06.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libstudxml::@adc904478183145f15fa",
+					"jsonFile" : "target-libstudxml-Debug-2bdc8a75cae537309faa.json",
+					"name" : "libstudxml",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@874320f2c4e182ab03bd",
+					"jsonFile" : "target-uninstall-Debug-0335fb145760d96bf1b3.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "xlnt::@874320f2c4e182ab03bd",
+					"jsonFile" : "target-xlnt-Debug-b76f7a826b05eaa79767.json",
+					"name" : "xlnt",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "_deps/xlnt-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.xlnt-build-Release-166751c61bcedacc0533.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/xlnt-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/xlnt-build/source",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.xlnt-build.source-Release-d9be009f72ace004dd89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/xlnt-src/source",
+					"targetIndexes" : 
+					[
+						2,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "_deps/xlnt-build/source/third-party/libstudxml",
+					"jsonFile" : "directory-_deps.xlnt-build.source.third-party.libstudxml-Release-c70615e2ffb5f65b0c3a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "build/_deps/xlnt-src/third-party/libstudxml.build",
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				},
+				{
+					"build" : "_deps/tabulate-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.tabulate-build-Release-520ea6a91e5a65486d49.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "build/_deps/tabulate-src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ExcelTableApp",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "xlnt_all",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "xlnt",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "libstudxml",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "tabulate",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-c2ffc455ab283766e5ed.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@deb7e7b195595d1d88db",
+					"jsonFile" : "target-ALL_BUILD-Release-55512f0ebaa4c178caf8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@874320f2c4e182ab03bd",
+					"jsonFile" : "target-ALL_BUILD-Release-a51438b070773913b1dd.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@adc904478183145f15fa",
+					"jsonFile" : "target-ALL_BUILD-Release-ebc87439a35a595d8047.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@f577248e0aae2aef4ba1",
+					"jsonFile" : "target-ALL_BUILD-Release-563a0e25510b2eb72215.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExcelTableApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExcelTableApp-Release-9a049f4363356eea30fb.json",
+					"name" : "ExcelTableApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-8b6d874a1c788572cd06.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libstudxml::@adc904478183145f15fa",
+					"jsonFile" : "target-libstudxml-Release-d7d35d6a3c2385d6203a.json",
+					"name" : "libstudxml",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@874320f2c4e182ab03bd",
+					"jsonFile" : "target-uninstall-Release-0335fb145760d96bf1b3.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "xlnt::@874320f2c4e182ab03bd",
+					"jsonFile" : "target-xlnt-Release-46c3878b9c15d23229ce.json",
+					"name" : "xlnt",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "_deps/xlnt-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.xlnt-build-MinSizeRel-166751c61bcedacc0533.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/xlnt-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/xlnt-build/source",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.xlnt-build.source-MinSizeRel-831ddcee274f689ea573.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/xlnt-src/source",
+					"targetIndexes" : 
+					[
+						2,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "_deps/xlnt-build/source/third-party/libstudxml",
+					"jsonFile" : "directory-_deps.xlnt-build.source.third-party.libstudxml-MinSizeRel-c70615e2ffb5f65b0c3a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "build/_deps/xlnt-src/third-party/libstudxml.build",
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				},
+				{
+					"build" : "_deps/tabulate-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.tabulate-build-MinSizeRel-520ea6a91e5a65486d49.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "build/_deps/tabulate-src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ExcelTableApp",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "xlnt_all",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "xlnt",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "libstudxml",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "tabulate",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-c2ffc455ab283766e5ed.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@deb7e7b195595d1d88db",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-55512f0ebaa4c178caf8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@874320f2c4e182ab03bd",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-a51438b070773913b1dd.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@adc904478183145f15fa",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-ebc87439a35a595d8047.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@f577248e0aae2aef4ba1",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-563a0e25510b2eb72215.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExcelTableApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExcelTableApp-MinSizeRel-32b3960e974ee967c8fb.json",
+					"name" : "ExcelTableApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-8b6d874a1c788572cd06.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libstudxml::@adc904478183145f15fa",
+					"jsonFile" : "target-libstudxml-MinSizeRel-dcc509e1d30d0ca3de62.json",
+					"name" : "libstudxml",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@874320f2c4e182ab03bd",
+					"jsonFile" : "target-uninstall-MinSizeRel-0335fb145760d96bf1b3.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "xlnt::@874320f2c4e182ab03bd",
+					"jsonFile" : "target-xlnt-MinSizeRel-227fbbead205564982b1.json",
+					"name" : "xlnt",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "_deps/xlnt-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.xlnt-build-RelWithDebInfo-166751c61bcedacc0533.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/xlnt-src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/xlnt-build/source",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.xlnt-build.source-RelWithDebInfo-2cb34a291f5f791d76fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/xlnt-src/source",
+					"targetIndexes" : 
+					[
+						2,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "_deps/xlnt-build/source/third-party/libstudxml",
+					"jsonFile" : "directory-_deps.xlnt-build.source.third-party.libstudxml-RelWithDebInfo-c70615e2ffb5f65b0c3a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "build/_deps/xlnt-src/third-party/libstudxml.build",
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				},
+				{
+					"build" : "_deps/tabulate-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.tabulate-build-RelWithDebInfo-520ea6a91e5a65486d49.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "build/_deps/tabulate-src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ExcelTableApp",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "xlnt_all",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "xlnt",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "libstudxml",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "tabulate",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-c2ffc455ab283766e5ed.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@deb7e7b195595d1d88db",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-55512f0ebaa4c178caf8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@874320f2c4e182ab03bd",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-a51438b070773913b1dd.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@adc904478183145f15fa",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-ebc87439a35a595d8047.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@f577248e0aae2aef4ba1",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-563a0e25510b2eb72215.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExcelTableApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExcelTableApp-RelWithDebInfo-ac7a2cd3010876bce38b.json",
+					"name" : "ExcelTableApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-8b6d874a1c788572cd06.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libstudxml::@adc904478183145f15fa",
+					"jsonFile" : "target-libstudxml-RelWithDebInfo-054259496a046c2fe95f.json",
+					"name" : "libstudxml",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@874320f2c4e182ab03bd",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-0335fb145760d96bf1b3.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "xlnt::@874320f2c4e182ab03bd",
+					"jsonFile" : "target-xlnt-RelWithDebInfo-58d6d6b740bfba3f2930.json",
+					"name" : "xlnt",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/USER/OneDrive/Documents/Final project c++/build",
+		"source" : "C:/Users/USER/OneDrive/Documents/Final project c++"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
